@@ -73,6 +73,20 @@
   display: none;
 }
 
+/* Sticky navigation */
+.sticky {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(253, 242, 233, 0.95);
+  z-index: 9998;
+  height: 8rem;
+  padding-top: 0;
+  padding-bottom: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+}
+
 /************************/
 /* HERO SECTION */
 /************************/
@@ -376,7 +390,7 @@
 /******************/
 
 .section-pricing {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 4.8rem;
 }
 
 .pricing-plan {
@@ -486,7 +500,7 @@
 /* ************** */
 
 .section-cta {
-  padding: 4.8rem 0 12.8rem;
+  padding: 9.6rem 0 12.8rem;
 }
 
 .cta {
